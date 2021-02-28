@@ -1,0 +1,107 @@
+/*applys for the hole site*/
+*{
+    
+}
+
+/*same goes for body, left right and a*/
+body{
+    background-color:#FFFFFF;
+    font-family:  "Times New Roman", serif;
+   
+}
+
+
+
+ /*this is used to removed the Bullet Points from the header*/
+li{
+    list-style-type:none;
+}
+
+
+/*this is used to get the hiof loge to the left*/
+.left{
+ float: left;
+ display: flex;
+}
+
+/*this is used to get the User user loge to the right*/
+.right{
+ float: right;
+ display: flex;
+ 
+}
+
+/*this is used to remove blu line under button*/
+a{
+    text-decoration: none;
+}
+
+/*Used for styling the first box Title*/
+#title{
+top: 155px;
+left: 220px;
+width: 463px;
+height: 49px;
+border:3px solid black;
+
+}
+
+
+/*Used for styling the second box Title*/
+#content{
+top: 244px;
+left: 220px;
+width: 926px;
+height: 135px;
+border:3px solid black;
+}
+/*used for styling the button*/
+#submit{
+ text-align: center;
+ background-color: #56D4C2;
+ height: 42px;
+ width: 141px;
+ color: white;
+ float: right;
+ margin-right:310px; 
+
+
+}
+
+
+/*this is used to decide what properties for alle of the my todos card wil have*/
+.content-info{
+display:grid;
+grid-template-columns:2fr 2fr 2fr;
+grid-template-rows: 4fr 4fr 4fr;
+grid-row-gap: 10px 10px;
+margin: 20px;
+justify-content: space-evenly;
+
+
+ 
+
+  
+
+}
+/*this is used to style the buttons for my todos card*/
+#submit2{
+ text-align: center;
+ background-color: #56D4C2;
+ height:23px;
+ width: 77px;
+ color: white;
+}
+
+
+
+
+
+/*this is used to creat a responFsvi and mobile friendly page */
+@media only screen and (max-width:800px){ 
+body{    
+display:grid;
+grid-template-columns: 2fr 2fr 2fr;
+
+}
+   
